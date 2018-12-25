@@ -1,6 +1,7 @@
 (require 'package)
 (add-to-list 'package-archives
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -18,6 +19,7 @@ inhibit-startup-echo-area-message t)
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (deeper-blue)))
  '(package-selected-packages (quote (clojure-mode-extra-font-locking cider))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
